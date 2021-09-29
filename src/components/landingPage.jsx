@@ -27,7 +27,7 @@ const LandingPage = () => {
     return (
         <div>
             <div id={'header'} className={'header sticky'}>
-                <div className={'logo'}>Deep Minds</div>   
+                <div className={'logo'}>ABC Comp</div>   
                 <ul>
                     <li><a href={'#content'}>Home</a></li>
                     <li><a href={'#about-us-block'}>About</a></li>
@@ -54,7 +54,7 @@ const LandingPage = () => {
                 <div className={'title-border'} />
                 <div className={'para-block'}>
                     <p>
-                        DeepMinds is an India based IT outsourcing company that offers high quality and cost-effective
+                        AbcComp is an India based IT outsourcing company that offers high quality and cost-effective
                         software development services to its clients.
                     </p>
                     <p>
@@ -152,7 +152,7 @@ const LandingPage = () => {
                             </div>
                             <div className={'team-member'}>
                                 <div>
-                                    <h4>Paras Bansal</h4>
+                                    <h4>Lorem Ipsum</h4>
                                     <h5>MD & CEO</h5>
                                 </div>
                                 <div className={'team-member-profile'}>
@@ -172,7 +172,7 @@ const LandingPage = () => {
                             </div>
                             <div className={'team-member'}>
                                 <div>
-                                    <h4>Deeksha Bansal</h4>
+                                    <h4>Lorem Ipsum</h4>
                                     <h5>MD & CTO</h5>
                                 </div>
                                 <div className={'team-member-profile ml-3'}>
@@ -218,7 +218,7 @@ const LandingPage = () => {
                                 </div>
                                 <div className={'contact-detail'}>
                                     <div className={'contact-detail'}>Call :</div>
-                                    <div>+91 9376979291</div>
+                                    <div>+91 9300001256</div>
                                 </div>
                             </div>
                             <div className={'contact-data'}>
@@ -227,7 +227,7 @@ const LandingPage = () => {
                                 </div>
                                 <div className={'contact-detail'}>
                                     <div className={'contact-detail'}>Email :</div>
-                                    <div>missgoyal13@gmail.com</div>
+                                    <div>abccomp@gmail.com</div>
                                 </div>
                             </div>
                             <div className={'contact-data'}>
@@ -236,7 +236,7 @@ const LandingPage = () => {
                                 </div>
                                 <div className={'contact-detail'}>
                                     <div className={'contact-detail'}>Location :</div>
-                                    <div>213, Exceluss Mall, Althan, Surat</div>
+                                    <div>111, XYZ Mall, Area, City</div>
                                 </div>
                             </div>
                             <div className={'follow-block'}>
@@ -274,20 +274,20 @@ const LandingPage = () => {
                     <div className={'col-lg-3'}>
                         <h4>Company</h4>
                         <address>
-                            Deep Minds Pvt. Ltd.<br/>
-                            213, Exeluss Mall<br/>
-                            Althan,<br/>
-                            Surat, Gujarat
+                            AbcComp Pvt. Ltd.<br/>
+                            111, XYZ Mall<br/>
+                            Area,<br/>
+                            City, State
                         </address>
                     </div>
                     <div className={'col-lg-3'}>
                         <h4>Email us at:</h4>
                         <address>
-                            missgoyal13@gmail.com
+                            abccomp@gmail.com
                         </address>
                         <h4>Call us at:</h4>
                         <address>
-                            9376979291
+                            9300001256
                         </address>
                     </div>
                     <div className={'col-lg-3'}>
@@ -313,7 +313,7 @@ const LandingPage = () => {
                 </div>
             </div>
             <div className={'copyright-block'}>
-                2021 &copy; DeepMinds Pvt. Ltd.
+                2021 &copy; AbcComp Pvt. Ltd.
             </div>
         </div>
     )
