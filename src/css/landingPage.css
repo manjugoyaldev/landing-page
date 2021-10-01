@@ -1,26 +1,50 @@
 * {
     box-sizing: border-box;
 }
+
+.landing {
+    width: 100%;
+}
+
+/* Header */
 .header {
     background-color: cadetblue;
     color: white;
-    padding: 1%;
-    display: flex;
-    align-items: center;
     width: 100%;
     z-index: 999;
+    flex-wrap: wrap;
+    padding-block: 1%;
 }
 .sticky {
     position: fixed;
 }
-.logo {
-    width: 35%;
-    font-size: 25px;
+.container {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80%;
 }
+.logo {
+    font-size: 25px;
+    text-align: left;
+    background-color: cadetblue;
+}
+.logo img {
+    mix-blend-mode: multiply;
+    width: 200px;
+    height: 70px;
+}
+.list-container-main {
+    width: 100%;
+    display: inline-block;
+}
+.list-container {
+    margin-inline-start: auto;
+}
+
 .header ul {
     text-align: right;
-    width: 65%;
-    margin: 0;
 }
 .header ul li {
     display: inline-block;
@@ -28,7 +52,6 @@
     margin-right: 5%;
     font-size: 13px;
     text-transform: uppercase;
-    padding: 1%;
 }
 .header ul li a {
     text-decoration: none;
@@ -37,6 +60,37 @@
 .header ul li:hover {
     background-color: orangered;
 }
+
+.menu-toggler {
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+    .header {
+        padding-block: 3%;
+    }
+    .menu-toggler {
+        display: inline-block;
+    }
+    .list-container-main {
+        display: none;
+    }
+    .container {
+        max-width: 100%;
+    }
+    .logo {
+        width: 90%;
+    }
+    .logo img {
+        width: 115px;
+        height: 50px;
+    }
+}
+
+/* -- End Header -- */
+
+/* Main Content */
+
 .content {
     padding: 1%;
     padding-top: 8%;
@@ -71,6 +125,10 @@
     width: 50%;
     text-align: center;
 }
+.content .image img {
+    height: 500px;
+}
+
 @keyframes mover {
     from {
         transform : scale(1);
@@ -88,6 +146,26 @@
 .mover-img {
     animation: mover 3s infinite alternate;
 }
+
+@media screen and (max-width: 992px) {
+    .content {
+        padding-top: 20% !important;
+        display: block;
+    }
+    .content .image {
+        width: 100%;
+    }
+    .content .image img {
+        height: 200px;
+    }    
+    .content .desc {
+        width: 100%;
+    }
+}
+
+/* -- End Main Content -- */
+
+
 .block {
     margin-top: 4%;
     padding: 0 12% 0 12%;
@@ -112,6 +190,16 @@
     left: 0;
     top: 0;
 }
+
+@media screen and (max-width: 992px) {
+    .block {
+        margin-top: 20%;
+        padding: 0 5% 0 8%;
+    }
+}
+
+/* About Us */
+
 .para-block {
     margin-top: 3%;
 }
@@ -122,6 +210,11 @@
     font-style: italic;
     font-family: ui-sans-serif;
 }
+
+/* -- End About Us -- */
+
+/* Services */
+
 .service-list {
     margin-top: 5%;
 }
@@ -150,6 +243,20 @@
     font-size: 18px;
     font-family: ui-sans-serif;
 }
+
+@media screen and (max-width: 992px) {
+    .service-list {
+        margin-top: 12%;
+    }
+    .field {
+        margin-top: 5%;
+    }
+}
+
+/* -- End Services -- */
+
+/* Portfolio */
+
 .portfolio-block {
     margin-top: 5%;
     width: 100%;
@@ -164,6 +271,20 @@
 .work-col:hover {
     animation: mover 1s;
 }
+
+@media screen and (max-width: 992px) {
+    .portfolio-block {
+        margin-top: 12%;
+    }
+    .work-col {
+        width: 100%;
+    }
+}
+
+/* -- End Portfolio -- */
+
+/* Team */
+
 .section {
     padding: 5% 0 5% 0;
 }
@@ -210,7 +331,7 @@
 .team-member {
     margin-top: 5%;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
 }
 .team-member h4, h5{
@@ -228,6 +349,17 @@
     overflow: hidden;
     border: 6px solid #ffffff25;
 }
+
+@media screen and (max-width: 992px) {
+    .section, .team-content {
+        margin-top: 5%;
+    }
+}
+
+/* -- End Team -- */
+
+/* Contact Us */
+
 .contact-card {
     margin-top: 5%;
     border-radius: 5%;
@@ -296,6 +428,17 @@
     padding: 2%;;
     color: white;
 }
+
+@media screen and (max-width: 992px) {
+    .contact-data-block, .contact-form, .email-text-margin{
+        margin-top: 5%;
+    }
+}
+
+/* -- End Contact Us -- */
+
+/* Footer */
+
 .footer {
     width: 100%;
     padding: 5% 12% 5% 12%;
@@ -306,3 +449,5 @@
     width: 100%;
     padding: 2%;
 }
+
+/* -- End Footer -- */
