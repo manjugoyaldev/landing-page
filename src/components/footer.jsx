@@ -17,20 +17,20 @@ const Footer = () => {
                 <div className={'col-lg-3'}>
                     <h4>Company</h4>
                     <address>
-                        AbcComp Pvt. Ltd.<br/>
-                        111, XYZ Mall<br/>
-                        Area,<br/>
-                        City, State
+                        DeepMinds Pvt. Ltd.<br/>
+                        U-7, Exceluss Mall<br/>
+                        Althan,<br/>
+                        Surat, Gujarat
                     </address>
                 </div>
                 <div className={'col-lg-3'}>
                     <h4>Email us at:</h4>
                     <address>
-                        abccomp@gmail.com
+                        missgoyal13@gmail.com
                     </address>
                     <h4>Call us at:</h4>
                     <address>
-                        9300001256
+                        9376959291
                     </address>
                 </div>
                 <div className={'col-lg-3'}>

@@ -45,7 +45,7 @@ const ContactUs = () => {
                             </div>
                             <div className={'contact-detail'}>
                                 <div className={'contact-detail'}>Call :</div>
-                                <div>+91 9300001256</div>
+                                <div>+91 9376959291</div>
                             </div>
                         </div>
                         <div className={'contact-data'}>
@@ -54,7 +54,7 @@ const ContactUs = () => {
                             </div>
                             <div className={'contact-detail'}>
                                 <div className={'contact-detail'}>Email :</div>
-                                <div>abccomp@gmail.com</div>
+                                <div>missgoyal13@gmail.com</div>
                             </div>
                         </div>
                         <div className={'contact-data'}>
@@ -63,7 +63,7 @@ const ContactUs = () => {
                             </div>
                             <div className={'contact-detail'}>
                                 <div className={'contact-detail'}>Location :</div>
-                                <div>111, XYZ Mall, Area, City</div>
+                                <div>U-7, Exceluss Mall, Althan, Surat</div>
                             </div>
                         </div>
                         <div className={'follow-block'}>

@@ -23,7 +23,7 @@ const LandingPage = () => {
             <ContactUs />
             <Footer />
             <div className={'copyright-block'}>
-                2021 &copy; AbcComp Pvt. Ltd.
+                2021 &copy; DeepMinds Pvt. Ltd.
             </div>
         </div>
     )

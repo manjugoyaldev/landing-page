@@ -2,6 +2,7 @@ import React from 'react';
 
 // images
 import Paras from '../assets/images/paras.jpeg';
+import deeksha from '../assets/images/deeksha.jpeg';
 
 const Team = () => {
     return (
@@ -21,7 +22,7 @@ const Team = () => {
                         </div>
                         <div className={'team-member'}>
                             <div>
-                                <h4>Lorem Ipsum</h4>
+                                <h4>Paras Bansal</h4>
                                 <h5>MD & CEO</h5>
                             </div>
                             <div className={'team-member-profile'}>
@@ -41,12 +42,12 @@ const Team = () => {
                         </div>
                         <div className={'team-member'}>
                             <div>
-                                <h4>Lorem Ipsum</h4>
+                                <h4>Deeksha Goel</h4>
                                 <h5>MD & CTO</h5>
                             </div>
                             <div className={'team-member-profile ml-3'}>
                                 <div className={'profile-img-container'}>
-                                    <img src={Paras} alt={'p'} height={'132%'} />
+                                    <img src={deeksha} alt={'p'} height={'132%'} />
                                 </div>
                             </div>
                         </div>

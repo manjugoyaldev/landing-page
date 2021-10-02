@@ -25,6 +25,7 @@
     justify-content: space-between;
     max-width: 80%;
 }
+
 .logo {
     font-size: 25px;
     text-align: left;
@@ -56,6 +57,7 @@
 .header ul li a {
     text-decoration: none;
     color: inherit;
+    padding: 10px;
 }
 .header ul li:hover {
     background-color: orangered;
@@ -69,14 +71,25 @@
     .header {
         padding-block: 3%;
     }
+    .container {
+        display: block;
+        max-width: 100%;
+    }
+    .toggler {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
     .menu-toggler {
         display: inline-block;
+        cursor: pointer;
     }
     .list-container-main {
         display: none;
+        transition: height 2s;
     }
-    .container {
-        max-width: 100%;
+    .show {
+        display: block;
     }
     .logo {
         width: 90%;
@@ -84,6 +97,16 @@
     .logo img {
         width: 115px;
         height: 50px;
+    }
+    .header ul {
+        text-align: left;
+    }
+    .header ul li {
+        display: list-item;
+        list-style-type: none;
+        margin-top: 5%;
+        font-size: 13px;
+        text-transform: uppercase;
     }
 }
 

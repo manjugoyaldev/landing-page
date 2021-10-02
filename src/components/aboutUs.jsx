@@ -7,7 +7,7 @@ const AboutUs = () => {
             <div className={'title-border'} />
             <div className={'para-block'}>
                 <p>
-                    AbcComp is an India based IT outsourcing company that offers high quality and cost-effective
+                    DeepMinds is an India based IT outsourcing company that offers high quality and cost-effective
                     software development services to its clients.
                 </p>
                 <p>
